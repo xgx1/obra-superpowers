@@ -10,7 +10,7 @@ description: 'Update test docs after bug fixes (更新测试文档/更新QA文�
 ## 流程
 
 ### Step 1: 加载文档规范
-加载 `dev-docs` + `obsidian-cli-full`。
+加载 `dev-docs`（Docs/ 排版与结构规范）。
 
 ### Step 2: 更新测试文档
 文档更新内容必须包含：

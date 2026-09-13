@@ -10,7 +10,7 @@ description: '生成开发总结/post-mortem doc：what was done, changed, gener
 ## 流程
 
 ### Step 1: 加载文档规范
-加载 `dev-docs` + `obsidian-cli-full`。
+加载 `dev-docs`（Docs/ 排版与结构规范）。
 
 ### Step 2: 编写总结
 编写总结文档，包含四个维度：

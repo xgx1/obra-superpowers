@@ -1,6 +1,6 @@
 ---
 name: write-feature-docs
-description: '编写功能文档/设计文档：Obsidian 格式 Docs/ 下，用 dev-docs + obsidian-cli-full。Triggers: 编写功能文档, 写设计文档, 更新文档.'
+description: '编写功能文档/设计文档：Docs/ 下，用 dev-docs 管排版、writing-functional-docs 管内容。Triggers: 编写功能文档, 写设计文档, 更新文档.'
 ---
 
 # Write Feature Docs
@@ -10,7 +10,7 @@ description: '编写功能文档/设计文档：Obsidian 格式 Docs/ 下，用 
 ## 流程
 
 ### Step 1: 加载文档规范
-加载 `dev-docs` + `obsidian-cli-full` — 获取 Obsidian 格式规范：
+加载 `dev-docs` — 获取 Docs/ 排版与结构规范：
 - 序号禁止规范（标题、目录、列表）
 - Wikilink 双向链接
 - Callout 标注语法
