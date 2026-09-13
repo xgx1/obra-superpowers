@@ -5,6 +5,8 @@ description: 非 git 仓库环境执行 subagent-driven-development（SDD）的�
 
 # SDD 无 git 环境适配
 
+> **平台约定**：本机主力环境是 Linux（Arch）——命令以 bash 为先、可直接执行；Windows 专属步骤一律收进「Windows（PowerShell）」小节，不在 Linux 段落里混用。
+
 当工作目录不是 git 仓库（git status 报 fatal）时，superpowers:subagent-driven-development 的脚本全部不可用，按此适配：
 
 ## 前置检查
@@ -32,4 +34,12 @@ description: 非 git 仓库环境执行 subagent-driven-development（SDD）的�
 ## 已知坑（本环境实测）
 - write 工具静默失败（返回成功但未落盘，发生 2 次）→ 关键文件 write 后必须 bash ls 验证
 - reviewer 的 glob 默认不匹配隐藏目录（.superpowers）→ brief 路径直接给全路径，或让 reviewer 用 read
-- Vite 8.2.1 新模板：无 public/vite.svg（是 icons/favicon.svg）；npm 命令需 npm.cmd（PowerShell）；dev server 监听 IPv6 [::1]:5173
+- Vite 8.2.1 新模板：无 public/vite.svg（是 icons/favicon.svg）；dev server 监听 IPv6 [::1]:5173
+
+### Linux（bash）
+
+- npm 命令直接写 `npm`（本机 Arch 上是 `/usr/bin/npm`，没有 `.cmd` 包装器）：`npm run dev`、`npx vite`。
+
+### Windows（PowerShell）
+
+- npm 命令需 npm.cmd（PowerShell）——Windows 上 `.cmd` 才是可执行入口，直接调 `npm` 可能解析失败。
