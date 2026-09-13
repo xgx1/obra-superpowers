@@ -1,6 +1,6 @@
 ---
 name: update-manual-test-doc
-description: Update test docs after bug fixes (更新测试文档/更新QA文档): list what changed and what needs re-testing.
+description: 'Update test docs after bug fixes (更新测试文档/更新QA文档): list what changed and what needs re-testing.'
 ---
 
 # Update Manual Test Doc

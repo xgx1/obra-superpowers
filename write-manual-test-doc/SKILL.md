@@ -1,6 +1,6 @@
 ---
 name: write-manual-test-doc
-description: Create manual test documentation for QA/developers. Triggers: "写测试文档", "人工测试文档", "QA测试指南". Produces Obsidian doc: test features, procedures, expected results.
+description: 'Create manual test documentation for QA/developers. Triggers: "写测试文档", "人工测试文档", "QA测试指南". Produces Obsidian doc: test features, procedures, expected results.'
 ---
 
 # Write Manual Test Doc

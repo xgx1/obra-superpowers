@@ -1,6 +1,6 @@
 ---
 name: review-feature-code
-description: 代码审查/代码质量 review：Standards + Spec 双轴。Runs code-review on current changes. Triggers: 代码审查, review代码, 审查一下.
+description: '代码审查/代码质量 review：Standards + Spec 双轴。Runs code-review on current changes. Triggers: 代码审查, review代码, 审查一下.'
 ---
 
 # Review Feature Code

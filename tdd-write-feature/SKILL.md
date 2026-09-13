@@ -1,6 +1,6 @@
 ---
 name: tdd-write-feature
-description: TDD 编写：红-绿-重构 test-first。Runs test-driven-development, cleans up outdated tests. Triggers: TDD编写, 先写测试再写代码.
+description: 'TDD 编写：红-绿-重构 test-first。Runs test-driven-development, cleans up outdated tests. Triggers: TDD编写, 先写测试再写代码.'
 ---
 
 # TDD Write Feature

@@ -1,6 +1,6 @@
 ---
 name: write-feature-docs
-description: 编写功能文档/设计文档：Obsidian 格式 Docs/ 下，用 dev-docs + obsidian-cli-full。Triggers: 编写功能文档, 写设计文档, 更新文档.
+description: '编写功能文档/设计文档：Obsidian 格式 Docs/ 下，用 dev-docs + obsidian-cli-full。Triggers: 编写功能文档, 写设计文档, 更新文档.'
 ---
 
 # Write Feature Docs
